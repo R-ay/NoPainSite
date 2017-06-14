@@ -1,0 +1,44 @@
+body
+{
+	width: 100%;
+}
+
+*
+{
+	font-family:  Ubuntu, sans-serif;
+}
+a:visited
+{
+	color: #FB8C00;
+}
+
+/*HEADER*/
+
+
+
+/*MAIN*/
+
+
+
+/*FOOTER*/
+
+footer
+{
+	background-color: #424242;
+	padding: 1% 0;
+	text-align: center;
+}
+
+/*POLICES*/
+
+section h1,h2, footer,li a
+{
+	color: #FB8C00;
+	text-transform: uppercase;
+}
+
+ li a:hoover
+{
+	color: white;
+}
+

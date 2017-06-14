@@ -1,0 +1,85 @@
+body
+{
+	background: url('images/blanc.png');
+	color: #181818;
+	width: 900px;
+	margin: auto;
+}
+
+section h1, nav a
+{
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background: url('images/gris.png');
+    border-radius: 5px;
+}
+
+nav ul
+{
+    list-style-type: none; 
+    display: flex;
+}
+
+nav li
+{
+	margin-right: 10px;
+}
+
+nav a
+{
+    font-size: 0.8em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+#bouton_download
+{
+	text-decoration: none;
+	color: #181818;
+	font-size: 1.3em;
+}
+
+#banniere_download
+{
+	text-align: center;
+	/*background: url('images/paysage.jpg')no-repeat;*/
+	position: relative;
+	width: 900px;
+	height: 200px;
+}
+
+section
+{
+	display: flex;
+	background: url('images/fond-gris.jpg');
+}
+
+section img
+{
+	width: 450px;
+	height: 250px;
+	/*box-shadow: 0px 4px 4px #1c1a19;
+	border-radius: 5px;
+	border: 1px solid #760001;*/
+
+}
+
+section article
+{	
+	width: 450px;
+	height: 250px;
+}
+
+section p
+{
+	margin-left: 30px;
+	margin-right: 30px;
+}

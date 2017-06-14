@@ -1,0 +1,153 @@
+body
+{
+  	background-color: #BDBDBD;
+	margin: 0;
+	width: 100%;
+}
+a:link 
+{                               /* lien non visité */
+	text-decoration: none;
+	list-style-type: none;
+    color: white;
+}
+
+a:visited 
+{                             /* lien visité */
+    color: white;
+}
+
+li a:hover 
+{                               /* survoler */
+    color:  white;
+}
+
+.Logo
+{
+	margin: auto;
+	margin-top: 5px;
+	margin-left: 50px;
+	float: left;
+}
+.PLOGO
+{
+	margin: 0;
+	margin-bottom: 5px;
+	height: 49px;
+	font-size: 30px;
+	font-style: italic;
+	line-height:80px;
+	margin-left:90%;
+	position: relative;
+}
+
+nav
+{
+	font-size: 30px;
+	text-align:left;
+	position : static	;
+	height:60px;
+	width: 100%;
+	opacity: 0.9;
+	background-color: #424242;
+}
+nav ul
+{
+	margin: 10px;
+}
+.li1
+{
+		display: inline-block;
+		margin-right: 40px;
+		margin-top: 10px;
+}
+main
+{
+
+}
+#maze_homepage
+{
+	background: url(https://s-media-cache-ak0.pinimg.com/originals/29/16/79/29167943cafbe39b8b7154f1023d3428.png) no-repeat;
+	background-size: cover;
+	position: relative;
+	height:800px;
+	text-align: center;
+	/*width: 100%;*/
+}
+#container
+{
+	display: inline-block;
+	font-size: 40px;
+	/*margin-top: 150px;
+	margin-left: 20%;*/
+}
+
+#container h1,.clic, #slogan
+{
+	color: white;
+}
+#slogan
+{
+	font-family: Amatic SC;
+}
+.clic
+{
+	background: rgba(97, 97, 97, 0.7);
+	padding: 10px;
+	text-transform: uppercase;
+}
+
+.titre
+{
+	padding-left: 20px;
+}
+
+.clic:hover
+{
+	color: black;
+	background-color: white;
+}
+
+footer
+{
+	font-size: 20px;
+	text-align: center;
+	background-color: #424242;
+	/*padding: 1% 0;*/
+}
+footer a:visited
+{
+	color: black;
+}
+#haut
+{
+	margin-left : 75%;
+}
+
+
+
+
+section
+{
+	border: 2px solid yellow;
+	/*width: 75%;*/
+}
+
+article
+{
+	border: 2px solid blue;
+}
+
+.date
+{
+	border: 2px solid green;
+	/*display: flex;*/
+	/*padding-right: 85%;*/
+}
+
+#historique
+{
+	border: 2px solid red;
+	/*text-align: center;*/
+}
+
+

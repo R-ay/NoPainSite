@@ -1,0 +1,171 @@
+body
+{
+	/*background-color: #BDBDBD;*/
+	/*text-align: center;*/
+	margin: 0;
+	width: 100%;
+	background:#616161;
+}
+#body
+{
+	/*padding-left: 20%;*/
+	background: #616161;
+}
+/*#vide
+{
+	background: rgb(66,66,66);
+	color: rgb(66,66,66);
+}*/
+*
+{
+	font-family: Ubuntu, sans-serif;  /*test exemple*/
+}
+.clic:visited
+{
+	color: white;
+}
+a:visited
+{
+	color: #FB8C00;
+}
+
+/* HEADER */
+
+header
+{
+	background: rgba(66, 66, 66, 1);
+	/*background-color: #424242;*/
+	font-size: 20px;
+	/*position: fixed;*/
+	z-index: 10000;
+
+}
+nav
+{
+	border: 0.01px solid #424242;
+	text-align: center;
+	text-transform: uppercase;
+  	/*padding: 15px 0;*/
+}
+nav li
+{
+	display: inline;
+	/*border-: 2px solid black;*/
+	margin: 0px 10px;
+}
+
+a, header ul
+{
+	text-decoration: none;
+	list-style-type: none;
+}
+nav a:hoover
+{
+	color: #FB8C00;
+}
+li a:hover
+{
+	color: white;
+}
+
+#nogame
+{
+	font-size: 50px;
+}
+
+/* CORPS */
+
+.titre
+{
+	background-color: #616161;
+}
+#banniere_download
+{
+	background: url(images/labyrinthe.png) no-repeat;
+	background-size: cover;
+	position: relative;
+	border: 1px solid #424242;
+	text-align: center;
+	/*height: 100%;*/
+	/*top: 120px;*/
+}
+#container
+{
+	font-size: 40px;
+}
+#container h1,.clic, #slogan
+{
+	color: white;
+}
+#slogan
+{
+	font-family: Amatic SC;
+}
+.clic
+{
+	background: rgba(97, 97, 97, 0.7);
+	padding: 10px;
+	text-transform: uppercase;
+}
+.clic:hover
+{
+	color: black;
+	background-color: white;
+}
+section
+{
+	/*border: 2px solid yellow;*/
+}
+article
+{
+	/*border: 2px solid blue;*/
+}
+#maj, .article
+{
+	background:  #BDBDBD;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.date
+{
+	/*border: 2px solid green;*/
+	/*display: flex;*/
+
+}
+#historique
+{
+	border: 1px solid #616161;
+	/*text-align: center;*/
+	background: #BDBDBD;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+/* FOOTER */
+
+footer
+{
+	background-color: #424242;
+	padding: 1% 0;
+	text-align: center;
+}
+
+/* POLICES */
+
+section h1,h2, footer,li a
+{
+	color: #FB8C00;
+	text-transform: uppercase;
+}
+
+#contact:hoover
+{
+	color: white;
+}
+
+
+#liens
+{
+	color: black;
+}
+
